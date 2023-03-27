@@ -76,7 +76,7 @@ const CreateRoomTypesModal: FC<CreateRoomTypesModalProps> = ({ showModal, setSho
                     price: value?.price || 0,
                     tax: value?.tax || 0,
                     guests: value?.guests || 0,
-                    hotelId: id || 0,
+                    hotelId: Number(id) || 0,
                     image: value?.image ||  "",
                   }}
                   validationSchema={DisplayingErrorMessagesSchemaNormal}

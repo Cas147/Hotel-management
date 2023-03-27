@@ -74,7 +74,7 @@ const CreateRoomModal: FC<CreateRoomModalProps> = ({ showModal, setShowModal, va
                     name: value?.name || "",
                     roomTypeID: value?.roomTypeID || undefined,
                     state: value?.state || 1,
-                    hotelId: id
+                    hotelId: Number(id)
                   }}
                   validationSchema={DisplayingErrorMessagesSchemaNormal}
                   onSubmit={values => {
