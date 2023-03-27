@@ -72,7 +72,7 @@ const CreateRoomModal: FC<CreateRoomModalProps> = ({ showModal, setShowModal, va
                   initialValues={{
                     id: value?.id !== undefined ? value.id : rooms.data.length,
                     name: value?.name || "",
-                    roomTypeID: value?.roomTypeID || "",
+                    roomTypeID: value?.roomTypeID || undefined,
                     state: value?.state || 1,
                     hotelId: id
                   }}
