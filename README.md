@@ -1,14 +1,6 @@
-# <Traveler (Hotel management software)>
+# Traveler (Hotel management software
 
 ## The modern way to manage your accommodation
-
-## Installation
-
-git clone
-
-cd folder
-
-npm run dev
 
 ## Usage
 
