@@ -27,8 +27,12 @@ password: fake password
 ## Features
 
 -Traveler booking sistem
+
 -Create Hotels
+
 -Create Bookings
+
 -Create Room types
+
 -Create Rooms
 
