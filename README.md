@@ -2,12 +2,12 @@
 
 ## The modern way to manage your accommodation
 
-## Table of Contents
-
 ## Installation
 
 git clone
+
 cd folder
+
 npm run dev
 
 ## Usage
