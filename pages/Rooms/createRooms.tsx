@@ -109,6 +109,7 @@ const CreateRoomModal: FC<CreateRoomModalProps> = ({ showModal, setShowModal, va
                           placeholder="Hotel name" 
                           name="roomTypeID"
                         >
+                          <option value={undefined}>Select</option>
                           {store.data.map((roomType: IroomsType, index:number) => {
                             if (Number(roomType.hotelId) === Number(id)) {
                               return (
