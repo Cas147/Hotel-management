@@ -15,12 +15,17 @@ npm run dev
 To be able to login yo dont need a real account 
 
 traveler:
+
 email: fake email
+
 password: fake password
 
 hotel:
+
 name: fake name
+
 email: fake email
+
 password: fake password
 
 
